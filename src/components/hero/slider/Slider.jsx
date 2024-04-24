@@ -1,6 +1,6 @@
 import React from 'react'
-import webmin from '../../../images/web-min.png'
-import motiongraphics from '../../../images/motion-grapchis.png'
+import webmin from '../../../images/web-minified.png'
+import motiongraphics from '../../../images/motion-graphics-min.png'
 import devops from '../../../images/devops.png'
 const Slider = () => {
   return (
