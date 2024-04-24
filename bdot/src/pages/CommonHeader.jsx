@@ -1,6 +1,7 @@
 import React from 'react'
 import HeroImage from '../images/hero-bg.png'
 import { Link } from 'react-router-dom'
+import BGwhiteLogo from '../images/Logos/BG-white-trans.png'
 const CommonHeader = () => {
     return (
         <div className="hero_area">
@@ -14,11 +15,13 @@ const CommonHeader = () => {
         <header className="header_section">
             <div className="container-fluid">
                 <nav className="navbar navbar-expand-lg custom_nav-container ">
-                    <a className="navbar-brand" href="index.html">
+                    <Link to='/'>
+                    <a className="navbar-brand" >
                         <span>
-                            BDOT
+                        <img src={BGwhiteLogo} width="80rem" alt="" />
                         </span>
                     </a>
+                    </Link>
 
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,8 +45,8 @@ const CommonHeader = () => {
                             <Link className="nav-item" to='/team'>
                                 <a className="nav-link" >Team</a>
                             </Link>
-                            <Link className="nav-item">
-                                <a className="nav-link" href="#"> <i className="fa fa-user" aria-hidden="true"></i> Login</a>
+                            <Link className="nav-item" >
+                                <a className="nav-link" > <i className="fa fa-user" aria-hidden="true"></i> Login</a>
                             </Link>
                             <form className="form-inline">
                                 <button className="btn  my-2 my-sm-0 nav_search-btn" type="submit">
