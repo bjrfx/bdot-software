@@ -19,7 +19,7 @@ const Slider = () => {
                                      Our web development team is proficient in the latest technologies and frameworks. We build websites that are not only visually appealing but also functionally robust. From e-commerce plartform to personal blogs, we've got you covered.
                                  </p>
                                  <div className="btn-box">
-                                     <a href="" className="btn1">
+                                     <a  className="btn1">
                                          Read More
                                      </a>
                                  </div>
@@ -46,7 +46,7 @@ const Slider = () => {
                                      Bring your website to life with our motion graphics services. Our designers create engaging animations that enhance user experience and make your website stand out from the crowd.
                                  </p>
                                  <div className="btn-box">
-                                     <a href="" className="btn1">
+                                     <a  className="btn1">
                                          Read More
                                      </a>
                                  </div>
@@ -73,7 +73,7 @@ const Slider = () => {
                                      Our DevOps services aim to streamline your operations and improve collaboration between development and IT operations. We provide continuous integration, continuous delivery, automated testing, and infrastructure monitoring to ensure your web applications run smoothly and efficiently.
                                  </p>
                                  <div className="btn-box">
-                                     <a href="" className="btn1">
+                                     <a  className="btn1">
                                          Read More
                                      </a>
                                  </div>

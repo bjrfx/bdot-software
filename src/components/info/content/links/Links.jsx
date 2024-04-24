@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Links = () => {
     return (
@@ -8,21 +9,31 @@ const Links = () => {
                     Links
                 </h4>
                 <div className="info_links">
-                    <a className="active" href="index.html">
+                    <Link to='/'>
+                    <a className="" >
                         Home
                     </a>
-                    <a className="" href="about.html">
+                    </Link>
+                    <Link to='/about'>
+                    <a className="" >
                         About
                     </a>
-                    <a className="" href="service.html">
+                    </Link>
+                    <Link to='/services'>
+                    <a className="" >
                         Services
                     </a>
-                    <a className="" href="why.html">
+                    </Link>
+                    <Link to='/why'>
+                    <a className="" >
                         Why Us
                     </a>
-                    <a className="" href="team.html">
+                    </Link>
+                    <Link to='/team'>
+                    <a className="" >
                         Team
                     </a>
+                    </Link>
                 </div>
             </div>
         </div>

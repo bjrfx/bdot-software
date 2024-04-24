@@ -16,7 +16,7 @@ const MotionGraphics = () => {
                         The
                         point of using
                     </p>
-                    <a href="">
+                    <a >
                         Read More
                     </a>
                 </div>

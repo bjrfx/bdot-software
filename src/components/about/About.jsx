@@ -32,7 +32,7 @@ const About = () => {
                         Whether you're a small startup or a multinational corporation, we're here to help you harness the power of technology to achieve your goals and propel your business forward.
                         Get in touch with us today and let's embark on a journey to transform your digital presence together!
                     </p>
-                    <a href="">
+                    <a>
                         Read More
                     </a>
                 </div>

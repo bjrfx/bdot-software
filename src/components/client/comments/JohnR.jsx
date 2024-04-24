@@ -5,7 +5,7 @@ const JohnR = () => {
         <div className="item">
             <div className="box">
                 <div className="img-box">
-                    <img src={account} alt="male image" width="100rem" className="box-img" />
+                    <img src={account} alt="" width="100rem" className="box-img" />
                 </div>
                 <div className="detail-box">
                     <div className="client_id">

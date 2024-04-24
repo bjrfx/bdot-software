@@ -16,7 +16,7 @@ const Services = () => {
                         <Devops />
                     </div>
                     <div className="btn-box">
-                        <a href="">
+                        <a >
                             View All
                         </a>
                     </div>

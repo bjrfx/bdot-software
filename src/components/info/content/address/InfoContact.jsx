@@ -7,19 +7,19 @@ const InfoContact = () => {
                         Address
                     </h4>
                     <div className="contact_link_box">
-                        <a href="">
+                        <a >
                             <i className="fa fa-map-marker" aria-hidden="true"></i>
                             <span>
                                 123 Bow Street, London, Ontario, Canada
                             </span>
                         </a>
-                        <a href="">
+                        <a >
                             <i className="fa fa-phone" aria-hidden="true"></i>
                             <span>
                                 Call +1 613-123-4567
                             </span>
                         </a>
-                        <a href="">
+                        <a >
                             <i className="fa fa-envelope" aria-hidden="true"></i>
                             <span>
                                 contact@bdotsoftware.com

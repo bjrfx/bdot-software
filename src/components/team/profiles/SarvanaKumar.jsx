@@ -16,19 +16,19 @@ const SarvanaKumar = () => {
                     </p>
                 </div>
                 <div className="social_box">
-                    <a href="#">
+                    <a >
                         <i className="fa fa-facebook" aria-hidden="true"></i>
                     </a>
-                    <a href="#">
+                    <a >
                         <i className="fa fa-twitter" aria-hidden="true"></i>
                     </a>
-                    <a href="#">
+                    <a >
                         <i className="fa fa-linkedin" aria-hidden="true"></i>
                     </a>
-                    <a href="#">
+                    <a >
                         <i className="fa fa-instagram" aria-hidden="true"></i>
                     </a>
-                    <a href="#">
+                    <a >
                         <i className="fa fa-youtube-play" aria-hidden="true"></i>
                     </a>
                 </div>
