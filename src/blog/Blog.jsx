@@ -8,6 +8,7 @@ const Blog = () => {
     <div className='sub_page'>
         <CommonHeader />
         <h1 style = {{ textAlign: 'center'}}>Blog Posts Here</h1>
+        <p >Post One</p>
         <Info />
         <Footer />
     </div>

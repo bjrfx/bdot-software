@@ -1,5 +1,6 @@
 import React from 'react'
-import aboutimg from '../../images/about-img.png'
+// import aboutimg from '../../images/about-img.png'
+import bdotWhiteImage from '../../images/BDOTWHITE.png'
 const About = () => {
   return (
 
@@ -16,7 +17,7 @@ const About = () => {
         <div className="row">
             <div className="col-md-6 ">
                 <div className="img-box">
-                    <img src={aboutimg} alt="" />
+                    <img src={bdotWhiteImage} alt="" />
                 </div>
             </div>
             <div className="col-md-6">

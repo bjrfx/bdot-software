@@ -12,13 +12,11 @@ const WebDevelopment = () => {
                         Web Development
                     </h5>
                     <p>
-                        fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                        The
-                        point of using
+                    Transform your online presence with our expert web development services. From websites to web apps, we blend creativity and technical know-how to bring your vision to life.
                     </p>
-                    <a href="">
+                    {/* <a href="">
                         Read More
-                    </a>
+                    </a> */}
                 </div>
             </div>
         </div>

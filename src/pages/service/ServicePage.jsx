@@ -1,14 +1,16 @@
 import React, { Fragment } from 'react'
-import Services from '../../components/services/Services'
+
 import Info from '../../components/info/Info'
 import Footer from '../../components/footer/Footer'
 import CommonHeader from '../CommonHeader'
+import AddonServices from '../../components/services/AddonServices'
+
 const ServicePage = () => {
   return (
     <Fragment>
         <div className='sub_page'>
         <CommonHeader />
-        <Services />
+        <AddonServices />
         <Info />
         <Footer />
         </div>

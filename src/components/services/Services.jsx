@@ -3,6 +3,7 @@ import Ourservices from './ourservices/Ourservices'
 import WebDevelopment from './webdevelopment/WebDevelopment'
 import MotionGraphics from './motiongraphics/MotionGraphics'
 import Devops from './devops/Devops'
+import { Link } from 'react-router-dom'
 const Services = () => {
     return (
 
@@ -16,10 +17,12 @@ const Services = () => {
                         <Devops />
                     </div>
                     <div className="btn-box">
-                        <a >
-                            View All
-                        </a>
-                    </div>
+                <Link to='/services'>
+                
+                    View All
+               
+                </Link>
+            </div>
                 </div>
             </div>
         </section>

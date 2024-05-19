@@ -20,6 +20,7 @@ console.log('Device ID:', deviceId);
   const [ip, setIp] = useState('');
   const [city, setCity] = useState('');
   const [region, setRegion] = useState('');
+  // const [message, setMessage] = useState('');
 
   useEffect(() => {
     fetch('https://ipinfo.io/json')
@@ -32,6 +33,9 @@ console.log('Device ID:', deviceId);
       })
       .catch(error => {
         console.error('Error fetching IP address:', error);
+        console.log(error.message)
+        // const message = (error.message === 'Failed to fetch') ? 'Data ID fetch failed' : `Device ID: ${ip} ${city}, ${region}`;
+        // setMessage(message);
       });
   }, []); // Empty dependency array means this effect will only run once after the component mounts
 

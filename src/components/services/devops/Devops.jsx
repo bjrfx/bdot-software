@@ -12,13 +12,11 @@ const Devops = () => {
                         Devops
                     </h5>
                     <p>
-                        fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                        The
-                        point of using
+                    Optimize your software development with our DevOps solutions. We automate deployment, integrate processes, and foster collaboration for faster, more efficient results.
                     </p>
-                    <a >
+                    {/* <a >
                         Read More
-                    </a>
+                    </a> */}
                 </div>
             </div>
         </div>

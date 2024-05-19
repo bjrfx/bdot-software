@@ -12,13 +12,11 @@ const MotionGraphics = () => {
                         Motion Graphics for Web
                     </h5>
                     <p>
-                        fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                        The
-                        point of using
+                    Engage your audience with captivating web motion graphics. From animated logos to interactive storytelling, we create immersive experiences that leave a lasting impression.
                     </p>
-                    <a >
+                    {/* <a >
                         Read More
-                    </a>
+                    </a> */}
                 </div>
             </div>
         </div>
